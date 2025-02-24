@@ -1,0 +1,46 @@
+Where to Use This in Your Project
+
+1. Server-Side (quantum_ssl_server.py)
+
+Replace any traditional key generation method with bb84_qkd().
+
+This ensures each session generates a new quantum-derived key.
+
+
+
+2. Client-Side (quantum_ssl_client.py)
+
+The client receives a QKD key securely from the server and uses it for AES-256 encryption.
+
+
+
+
+
+---
+
+How QKD Enhances Security
+
+✅ Quantum Secure – Any interception disturbs quantum states, making MITM impossible.
+✅ Key Rotations – Each session generates a new quantum key, preventing replay attacks.
+✅ Post-Quantum Cryptography Ready – Works alongside Falcon-1024 authentication.
+
+
+---
+
+Final Steps
+
+Ensure Qiskit is Installed:
+
+pip install qiskit
+
+Run the QKD Protocol Independently for Testing:
+
+python qkd_protocol.py
+
+Integrate with the Quantum SSL System
+
+
+
+---
+
+This QKD module is the core of your Quantum SSL system.
