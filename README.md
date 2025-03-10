@@ -61,9 +61,9 @@ cd Quantum-SSL-Secure-System
 2. Install Dependencies
 
 ## Installation
-bash
+```
 pip install qiskit pqcrypto pycryptodome netifaces
-
+```
 
 3. Running the Secure Server
 
