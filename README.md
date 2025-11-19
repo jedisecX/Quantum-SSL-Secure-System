@@ -55,7 +55,7 @@ OpenSSL (TLS 1.3 for Secure Transport)
 
 1. Clone the Repository
 
-git clone https://github.com/YOUR_USERNAME/Quantum-SSL-Secure-System.git
+git clone https://github.com/jedisecx/Quantum-SSL-Secure-System.git
 cd Quantum-SSL-Secure-System
 
 2. Install Dependencies
